@@ -36,7 +36,7 @@
         <a href="https://wa.me/529192278261" class="me-4 text-reset">
           <i class="bi bi-whatsapp" style="color:green"></i>
         </a>
-        <a href="http://github.com" class="me-4 text-reset">
+        <a href="https://github.com/Jona1801/turiChiapas.git" class="me-4 text-reset">
           <i class="bi bi-github" ></i>
         </a>
       </div>
