@@ -98,7 +98,7 @@
           
           <div class="container">
             <h2 class="text-center animate__animated animate__zoomIn " style="margin-top:70px;">
-              VIVE LA MEJOR EXPERIENCIA TURISTICA EN CHIAPAS
+              VIVE LA MEJOR EXPERIENCIA TURISTICA EN CHIAPAS.
             </h2>
           </div>
 
@@ -185,7 +185,7 @@
               <div class="card-tc">
                 <img src="img/card/palenque.jpg" alt="">
                 <div class="info">
-                  <h1>Ruinas Prehistoricas</h1>
+                  <h1>Ruinas Prehistoricas.</h1>
                   <p>Xhembobel-Moyos, nombre de un pueblo inmediato, fue en una época también usado para designar las ruinas de Palenque.</p>
                     <a href="./pages/lugares.html" class="btn-tc">Ir</a>
                 </div>
