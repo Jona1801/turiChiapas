@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>turiChiapas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Candal&family=Roboto+Mono:wght@300&family=Suez+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Candal&family=Roboto+Mono:wght@300&family=Suez+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png"  href="../img/logos/icono.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../plugins/animate.css">
+    <link rel="stylesheet" type="text/css" href="icons.css">
+	<link rel="stylesheet" href="../style/bootstrap-icons-1.6.1/bootstrap-icons.css">
+    <script src="../js2/jquery-3.2.1.js"></script>
+    <script src="../js2/script.js"></script>
+
+</head>
+        <body style=" background-color: white; height: 100%;">
+           <!--Header-->
+           <nav class="navbar navbar-expand-md fixed-top navbar-light border-bottom border-1" style="background-color: white;">
+            <div class="container-fluid ">
+                <img src="../img/logos/logo-turi.png" width="50" height="40" role="img">
+                    <h1 class="" style="cursor:default; color: black; font-size: 22px; margin-top: 5px; font-family: 'Suez One', serif;">turiChiapas</h1>
+                </img>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="menuNavegacion" class="collapse navbar-collapse" style="margin-left: 60%;">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-2">
+                            <a class="nav-link text-dark" href="../index.php" style="cursor: pointer; font-size: 15px; font-family: 'Anton', sans-serif; ">Inicio</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link text-dark" style=" font-size: 15px;  font-family: 'Anton', sans-serif; " href="../formulario.php">Rutas</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link text-dark" style="font-size: 15px;   font-family: 'Anton', sans-serif; " href="../pages/acerca.html">Acerca de</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link btn btn-outline-success  text-dark" style=" border-radius: 20px; padding: 9px 16px; font-size: 15px; font-family:'Anton', sans-serif;"  href="../login.html">
+                                Iniciar Sesión
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+
+            <section>
+                <h1 class="text-center" style="margin-top: 100px; color: #295835;">Hoteles en Chiapas para alojarse</h1>
+            </section>
+            <section style="margin-top: 70px; " id="Tcontenido">
+        
+                <div style="margin-right: 100px;" class="Tcalinear">
+                    <a href="#Todos" class="category_item" category="todo">Todo</a>
+                    <a href="#Ocosingo" class="category_item" category="ocosingo">Ocosingo</a>
+                    <a href="#SCristobal" class="category_item" category="SCristobal">San Cristobal</a>
+                    <a href="#TuxtlaGTZ" class="category_item" category="TuxtlaGTZ">Tuxtla Gutierrez</a>
+                    <a href="#Palenque" class="category_item" category="Palenque">Palenque</a>
+                    <a href="#Pichucalco" class="category_item" category="Pichucalco">Pichucalco</a>
+                    <a href="#Tapachula" class="category_item" category="Tapachula">Tapachula</a>
+                </div>
+            </section>
+        
+                <section style="margin-top: 60px;" class="Hotel-list">
+                        <!--Hoteles de ocosigno-->
+                        
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="ocosingo">
+                                <img src="/proyectoweb/images2/hotelesfiltro/ocosingo/hzepeda.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Zepeda</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> 2da. CALLE PONIENTE NORTE N°106 Barrio, Norte, 29950 Ocosingo, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9196730178"> 919 673 0178 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="ocosingo">
+                                <img src="/proyectoweb/images2/hotelesfiltro/ocosingo/hmargarita.png" alt="" >
+                                <p class="titulo-TC">Hotel Margarita</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> Cjon. 1er. Ote. Nte. 19, Centro, 29950 Ocosingo, Chis.</p>  </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9196730280 "> 919 673 0280 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="ocosingo">
+                                <img src="/proyectoweb/images2/hotelesfiltro/ocosingo/hplaza.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Real Plaza</p>
+                                <div class="info-Tc">
+                                <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> 29950, Av. Tercera Sur Pte. 170, San Sebastian, 29950 Ocosingo, Chis.</p>  </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono:<p><a href="https://api.whatsapp.com/send?phone=9196730781 "> 919 673 0781</a></p>  </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="ocosingo">
+                                <img src="/proyectoweb/images2/hotelesfiltro/ocosingo/hmaya.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Maya</p>
+                                <div class="info-Tc">
+                                <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> Calle Segunda Ote. Nte. 90, Norte, 29950 Ocosingo, Chis.</p>  </p>
+                                <p style="font-weight: 900; margin-right:0.2cm">Telefono:<p> <a href="https://api.whatsapp.com/send?phone=9191324045">919 132 4045</a></p>  </p>
+                                </div>
+                        </div>
+        
+                        <!--Hoteles de San Cristobal-->
+                        
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="SCristobal">
+                                <img src="/proyectoweb/images2/hotelesfiltro/scristobal/hcuca.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Rincón de Cuca</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> C. Ejército Nacional 2, Barrio del Cerrillo, 29220 San Cristóbal de las Casas,</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9676784227"> 967 678 4227 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="SCristobal">
+                                <img src="/proyectoweb/images2/hotelesfiltro/scristobal/hquijote.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Don Quijote</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Av Cristóbal Colón 7, Guadalupe, 29230 San Cristóbal de las Casas, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9676780346"> 967 678 0346 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20	)" category="SCristobal">
+                                <img src="/proyectoweb/images2/hotelesfiltro/scristobal/hjovel.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Jovel</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> Flavio A. Paniagua 27, Zona Centro, 29220 San Cristóbal de las Casas, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=6976781734"> 967 678 1734 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="SCristobal">
+                                <img src="/proyectoweb/images2/hotelesfiltro/scristobal/hlum.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Na´Lum</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> 2da. CALLE PONIENTE NORTE N°106 Barrio, Norte, 29950 Ocosingo, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9676314771"> 967 631 4771 </a> </p> </p>
+                                </div>
+                        </div>
+                        <!--Hoteles de Tuxtla-->
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="TuxtlaGTZ">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tuxtla/hmarimba.jpg" alt="" >
+                                <p class="titulo-TC">Hotel La Marimba</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> Avenida Central Poniente, 1254 Colonia El Maguey , 29000 Tuxtla Gutiérrez, México </p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9616189500"> 961 618 9500 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="TuxtlaGTZ">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tuxtla/hmarriot.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Marriot</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> Blvd. Belisario Domínguez 1195, Sin Nombre, Santa Elena, 29060 Tuxtla Gutiérrez </p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9616177777"> 961 617 7777 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="TuxtlaGTZ">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tuxtla/harte.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Axkan Arte </p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> Avenida Central Poniente, 1254 Colonia El Maguey , 29000 Tuxtla Gutiérrez, México </p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9616189500"> 961 618 9500 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item"  category="TuxtlaGTZ">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tuxtla/hmiguel.jpg" alt="" >
+                                <p class="titulo-TC">Hotel San Miguel</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Av 3a. Sur Pte 510, centro, 29000 Tuxtla Gutiérrez, Chis.</p></p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9616114459"> 961 611 4459</a> </p> </p>
+                                </div>
+                        </div>
+                        <!--Hoteles de Palenque-->
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="Palenque">
+                        <img src="/proyectoweb/images2/hotelesfiltro/palenque/htulipanes.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Tulipanes</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> 1ra Av Norte Poniente No. 6, La Cañada, 29960 Palenque, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9163450201"> 916 345 0201</a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="Palenque">
+                        <img src="/proyectoweb/images2/hotelesfiltro/palenque/hnututun.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Nututun</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Carretera, Palenque - Ocosingo Km. 3.5, Nututun, 29960 Palenque, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9163450201"> 916 345 0100</a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="Palenque">
+                        <img src="/proyectoweb/images2/hotelesfiltro/palenque/hbalam.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Kin Balam</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> Ruinas-Palenque Km 4.5, Parque Nacional, 29960 Palenque, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9161175176"> 916 117 5176</a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="Palenque">
+                        <img src="/proyectoweb/images2/hotelesfiltro/palenque/hreal.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Ciudad Real</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Pakalná - Palenque, La Mielera, 29960 Palenque, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9676784400"> 967 678 4400</a> </p> </p>
+                                </div>
+                        </div>
+                        <!--Hoteles de Pichucalco-->
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="Pichucalco">
+                        <img src="/proyectoweb/images2/hotelesfiltro/pichucalco/hselva.jpg" alt="" >
+                                <p class="titulo-TC">Hotel La Selva</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Dr. Belisario Domínguez 13, Centro, 29520 Pichucalco, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9323230015"> 932 323 0015</a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="Pichucalco">
+                        <img src="/proyectoweb/images2/hotelesfiltro/pichucalco/hgirasoles.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Los Girasoles</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>CALLE PIPILA, Juan Ramos Taracena ESQUINA, Las Ranas, 29520 Pichucalco, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9321310876"> 932 131 0876</a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="Pichucalco">
+                        <img src="/proyectoweb/images2/hotelesfiltro/pichucalco/hloma.jpg" alt="" >
+                                <p class="titulo-TC">Hotel La Loma</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>C. Fco. Contreras 48A, Centro, 29520 Pichucalco, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9323230052"> 932 323 0052</a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" category="Pichucalco">
+                        <img src="/proyectoweb/images2/hotelesfiltro/pichucalco/hmexico.jpg" alt="" >
+                                <p class="titulo-TC">Hotel México</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Ignacio Zaragoza 39, Centro, 29520 Pichucalco, Chis</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9323230069">  932 323 0069</a> </p> </p>
+                                </div>
+                        </div>
+                        <!--Hoteles de Tapachula-->
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="Tapachula">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tapachula/hone.jpg" alt="" >
+                                <p class="titulo-TC">Hotel One Tapachula</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> 9a. Av. Sur Prolongación #382 Col, Teofilo Acebo, 30795 Tapachula de Córdova y Ordoñez, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=8005045000"> 800 504 5000 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item"  category="Tapachula">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tapachula/hazul.jpg" alt="" >
+                        <p class="titulo-TC">Hotel Luna Azul</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Camino al tubo Num.10 Fracc, Las Hortencias, 30797 Tapachula de Córdova y Ordoñez, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9623251270">962 325 1270</a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item" style="background-color:rgba(77, 77, 77, 0.20)" category="Tapachula">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tapachula/hinn.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Plaza Inn</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p> 4a. Avenida Sur 157, Los Naranjos, Tapachula, 30790 Tapachula de Córdova y Ordoñez, Chis.</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9626286330">  962 628 6330 </a> </p> </p>
+                                </div>
+                        </div>
+                        <div class="Hotel-item"  category="Tapachula">
+                        <img src="/proyectoweb/images2/hotelesfiltro/tapachula/hcervantino.jpg" alt="" >
+                                <p class="titulo-TC">Hotel Cervantino</p>
+                                <div class="info-Tc">
+                                    <p style="font-weight: 900; margin-right:0.2cm">Ubicacion:<p>Primera Calle Ote. No. 6, Los Naranjos, Centro, 30700 Tapachula de Córdova y Ordoñez, Chis</p> </p>
+                                    <p style="font-weight: 900; margin-right:0.2cm">Telefono: <p><a href="https://api.whatsapp.com/send?phone=9626200008">  962 620 0008 </a> </p> </p>
+                                </div>
+                        </div>
+                    </section>
+
+            <!--Regresar-->
+            <form style ="background: url('../img/home.png') no-repeat  center/22px 22px; margin-right: 85%;"> 
+                <a style= "  margin-left: 10px; font-weight: 500;" type = "button" value = "¡Regresar!" onclick = "history.back ()"> ¡Regresar!</a>    
+            </form>
+
+            
+            
+            <!--Footer-->
+            <footer class="text-center text-dark" style="background-color: rgb(218, 247, 225)!important; margin-top: 50px;" >
+                <!-- Grid container -->
+                <div class="container pt-4">
+                  <!-- Section: Social media -->
+                  <section class="mb-4">
+                    <!-- Facebook -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+              
+                    <!-- Twitter -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="bi bi-twitter"></i
+                    ></a>
+              
+                   
+              
+                    <!-- Whatsapp -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="bi bi-whatsapp"></i
+                    ></a>
+              
+                    <!-- Github -->
+                    <a
+                      class="btn btn-link btn-floating btn-lg text-dark m-1"
+                      href="#!"
+                      role="button"
+                      data-mdb-ripple-color="dark"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                  </section>
+                  <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+              
+                <!-- Copyright -->
+                <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2020 Copyright:
+                  <a class="text-dark" href="#">UnitedTeam</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
+</body>
+</html>
